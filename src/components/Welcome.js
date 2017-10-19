@@ -7,7 +7,7 @@ const Welcome = props => {
             <h1>Welcome to T-Mobile</h1>
             <h2>We're excited to meet you</h2>
             <div className="img-container">
-                <img src={props.imgLink} className="img-responsive" alt="Welcome Image" />
+                <img src={props.imgLink} className="img-responsive" alt="Welcome" />
             </div>
         </div>
     );
